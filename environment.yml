@@ -9,3 +9,6 @@ dependencies:
   - libvorbis
   - librosa
   - datasets
+  - torchaudio
+  - pip:
+    - speechbrain
