@@ -12,8 +12,11 @@ Pre-requisities
 
 Conda Set Up 
 
-1. conda update -n base conda
-2. conda env create -f <NAME-OF-THE-FILE>
-2. conda activate <NAME-OF-THE-ENVIRONMENT>
+1. $ conda update -n base conda
+2. $ conda create --name <my-env>
+2. $ conda activate <my-env>
+3. $ conda remove -n <my-env> --all
+4. $ conda install python=3.10 (intsall python version 3.10)
+
 
 
