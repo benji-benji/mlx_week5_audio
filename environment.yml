@@ -1,7 +1,10 @@
 name: audio_classifier
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.10
-  - ipykernel 
-  - conda-forge::pysoundfile
-  - conda-forge::libvorbis
-  - conda-forge::librosa
+  - ipykernel
+  - pysoundfile
+  - libvorbis
+  - librosa
