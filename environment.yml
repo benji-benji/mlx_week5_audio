@@ -4,3 +4,4 @@ dependencies:
   - ipykernel 
   - conda-forge::pysoundfile
   - conda-forge::libvorbis
+  - conda-forge::librosa
