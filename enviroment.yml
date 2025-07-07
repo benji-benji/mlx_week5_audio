@@ -1,0 +1,4 @@
+name: audio_classifier
+dependencies:
+  - python=3.10
+
