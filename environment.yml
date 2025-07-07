@@ -1,4 +1,5 @@
 name: audio_classifier
 dependencies:
   - python=3.10
-
+  - conda-forge::pysoundfile
+  - conda-forge::libvorbis
