@@ -14,6 +14,6 @@ Conda Set Up
 
 1. $ conda update -n base conda
 2. $ conda env create -f environment.yml
-
+3. $ conda remove --name <myenv> --all
 
 
