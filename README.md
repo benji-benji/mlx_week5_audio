@@ -18,3 +18,13 @@ To add a dependency (package / libarary) :
 2. add to enviroment.yml in appropriate place
 3. $ conda env update --file environment.yml --prune
 
+TO DO 
+
+spin up GPU
+ssh into remote server 
+set up kaggle json file on remote gpu  
+write script for downloading and preparing data  
+execute script 
+write training script for CNN 
+write training script for Transformer 
+save both models to weights and biases 
