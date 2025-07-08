@@ -10,5 +10,6 @@ dependencies:
   - librosa
   - datasets
   - torchaudio
+  - kaggle 
   - pip:
     - speechbrain
