@@ -1,7 +1,4 @@
 from speechbrain.inference.classifiers import EncoderClassifier
-import kaggle 
-
-kaggle.login()
 
 classifier = EncoderClassifier.from_hparams(
     source="speechbrain/urbansound8k_ecapa",
@@ -14,8 +11,6 @@ out_prob, score, index, text_lab = classifier.classify_file(
 
 print(out_prob, score, index, text_lab)
 
-
-data_train = kaggle
 
 
 # load data
