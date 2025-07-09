@@ -2,3 +2,4 @@ checkpoints
 corpus
 wandb
 cache
+pretrained_models
